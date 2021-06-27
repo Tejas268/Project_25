@@ -3,10 +3,9 @@ class Dustbin extends BaseClass {
 
         super(x,y,width,height);
         this.image = loadImage("dustbin.png");
-        sprite.scale = 3;
 
     } display() {
-
+        scale(0.5,1.5)
         super.display();
     }
 }
