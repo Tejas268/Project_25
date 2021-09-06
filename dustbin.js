@@ -3,9 +3,5 @@ class Dustbin extends BaseClass {
 
         super(x,y,width,height);
         this.image = loadImage("dustbin.png");
-
-    } display() {
-        scale(0.5,1.5)
-        super.display();
     }
 }
